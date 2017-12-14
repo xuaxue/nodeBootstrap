@@ -1,0 +1,19 @@
+extends ../layout
+
+block content
+  .formDiv
+  .formDiv
+    form(action='/login', method='post')
+          table(cellpadding='10')
+              tr
+                td 姓名
+                td
+                  input.pwd(name='name')
+              tr
+                td 密码
+                td
+                  input.pwd(name='pwd')
+              tr
+                td
+                  button.button(type='submit') 登录
+  .formDiv
