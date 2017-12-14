@@ -21,7 +21,7 @@ router.get("/load",function(req,res,next){
 });
 //退出登录
 router.get('/quit', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: '退出登录' });
 });
 //post请求
 router.post('/login', function(req, res, next) {
